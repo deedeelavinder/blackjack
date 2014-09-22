@@ -10,7 +10,7 @@ class Player
   end
 
   def get_name
-    puts "Hi, what's your name?"
+    puts "What is your full name?"
     @p_name = gets.chomp
     greeting
   end
